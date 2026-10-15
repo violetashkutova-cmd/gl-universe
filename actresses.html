@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="uk" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Актриси — GL Universe</title>
+    <!-- Підключаємо загальний файл стилів -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Шапка сайту (Навігація) -->
+    <header class="header">
+        <div class="logo">🪷 GL Universe</div>
+        <nav class="nav-links">
+            <a href="index.html">Головна</a>
+            <a href="lakorns.html">Лакорни</a>
+            <a href="actresses.html" class="active">Актриси</a>
+            <a href="companies.html">Компанії</a>
+        </nav>
+        <!-- Кнопка перемикання теми -->
+        <button id="theme-toggle" class="theme-btn">☀️</button>
+    </header>
+
+    <!-- Основний контент сторінки актрис -->
+    <main class="content-container">
+        
+        <!-- Верхній блок: заголовок і пошук поруч -->
+        <div class="catalog-top">
+            <h1>Актриси</h1>
+            <!-- Поле пошуку за ім'ям -->
+            <input type="text" id="search-input" placeholder="Пошук за ім'ям...">
+        </div>
+
+        <!-- Кнопки фільтрації за компаніями -->
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">Всі</button>
+            <button class="filter-btn" data-filter="mine-media">Mine Media</button>
+            <button class="filter-btn" data-filter="gmmtv">GMMTV</button>
+            <button class="filter-btn" data-filter="freelance">Вільні артисти</button>
+        </div>
+
+        <!-- Сітка карток актрис -->
+        <div class="cards-grid">
+            
+            <!-- Пенджі (Mine Media) -->
+            <div class="card" data-company="mine-media">
+                <a href="pangjie.html" class="card-img-container" style="display: block; height: 280px; overflow: hidden; border-radius: 12px 12px 0 0;">
+                    <img src="pangjie.jpg" alt="Пенджі" style="width: 100%; height: 100%; object-fit: cover;">
+                </a>
+                <div class="card-info">
+                    <span class="card-year">Mine Media</span>
+                    <h3>Пенджі / Pangjie</h3>
+                    <p class="card-company">Актриса</p>
+                    <a href="pangjie.html" class="card-link">Біографія</a>
+                </div>
+            </div>
+<!-- Мейбл (Mine Media) -->
+            <div class="card" data-company="mine-media">
+                <a href="mable.html" class="card-img-container" style="display: block; height: 280px; overflow: hidden; border-radius: 12px 12px 0 0;">
+                    <img src="mable.jpg" alt="Мейбл" style="width: 100%; height: 100%; object-fit: cover;">
+                </a>
+                <div class="card-info">
+                    <span class="card-year">Mine Media</span>
+                    <h3>Мейбл / Mable</h3>
+                    <p class="card-company">Актриса</p>
+                    <a href="mable.html" class="card-link">Біографія</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2026 GL Universe</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

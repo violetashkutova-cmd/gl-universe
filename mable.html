@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="uk" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мейбл Сірівалі — GL Universe</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Шапка сайту -->
+    <header class="header">
+        <div class="logo">🪷 GL Universe</div>
+        <nav class="nav-links">
+            <a href="index.html">Головна</a>
+            <a href="lakorns.html">Лакорни</a>
+            <a href="actresses.html" class="active">Актриси</a>
+            <a href="companies.html">Компанії</a>
+        </nav>
+        <button id="theme-toggle" class="theme-btn">☀️</button>
+    </header>
+
+    <!-- Основний контент -->
+    <main class="content-container">
+        
+       <div class="back-link">
+    <a href="#" onclick="history.back(); return false;">&larr; Назад</a>
+</div>
+
+        <div class="detail-grid">
+            <!-- Ліва колонка: Фото та соцмережі -->
+            <div class="detail-poster-column">
+                <div class="detail-poster">
+                    <img src="mable.jpg" alt="Мейбл Сірівалі">
+                </div>
+                
+                <!-- Блок соцмереж -->
+                <div class="social-buttons" style="display: flex; flex-direction: column; gap: 10px; margin-top: 15px;">
+                    <a href="https://www.instagram.com/mable_siriwalee/" target="_blank" class="btn social-btn instagram">Instagram</a>
+                    <a href="https://www.tiktok.com/@mable_siriwalee" target="_blank" class="btn social-btn tiktok">TikTok</a>
+                    <a href="https://x.com/mable_siriwalee" target="_blank" class="btn social-btn twitter">X (Twitter)</a>
+                </div>
+            </div>
+
+            <!-- Права колонка: Інформація про актрису -->
+            <div class="detail-info">
+                <h1>Мейбл Сірівалі <span class="thai-title">(เมเบิ้ล สิริวลี สิริวิบูลย์)</span></h1>
+                
+                <div class="meta-tags">
+                    <span class="tag-badge">Актриса та модель</span>
+                    <span class="tag-badge">Mine Media Production</span>
+                </div>
+
+                <div class="bio-details" style="margin: 20px 0; display: flex; flex-direction: column; gap: 10px; line-height: 1.6;">
+                    <p><strong>Повне ім'я:</strong> Мейбл Сірівалі Сірівібун (Siriwalee Siriwibool)</p>
+                    <p><strong>Дата народження:</strong> 23 квітня 1997 року</p>
+                    <p><strong>Зріст:</strong> 169 см</p>
+                    <p><strong>Вища освіта:</strong> Магістерський ступінь у галузі клітинної та молекулярної біології для біомедичних застосувань (Suranaree University of Technology)</p>
+                    <p><strong>Місце роботи / Агентство:</strong> Mine Media Production</p>
+                </div>
+
+                <div class="synopsis">
+                    <h3>Біографія та кар'єра</h3>
+                    <p>
+                        Мейбл Сіріwaleе Сірівібун — харизматична тайська акторка, яка підкорила серця глядачів своєю вражаючою участю у GL-трилері «КлерБелл» (2025). 
+                    </p>
+                    <p>
+                        До того, як прийти в індустрію розваг, Мейбл серйозно займалася наукою та планувала здобути ступінь доктора наук (Ph.D.) і стати викладачкою. Проте бажання спробувати щось нове привело її до медіабізнесу у студію *Mine Media Production*, де вона розкрила свій яскравий акторський талант.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Фільмографія -->
+        <div class="related-section">
+            <h3>Фільмографія</h3>
+            <div class="cards-grid" style="max-width: 400px;">
+                <div class="card">
+                    <a href="clairebell.html" class="card-img-container" style="display: block; height: 250px; overflow: hidden; border-radius: 12px 12px 0 0;">
+                        <img src="clairebell.jpg" alt="КлерБелл" style="width: 100%; height: 100%; object-fit: cover;">
+                    </a>
+                    <div class="card-info">
+                        <span class="card-year">2025</span>
+                        <h3>КлерБелл / ClaireBell</h3>
+                        <p class="card-company">Роль: Клер</p>
+                        <a href="clairebell.html" class="card-link">Детальніше</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Блок «Пов'язане» -->
+        <div class="related-section">
+            <h3>Пов'язане</h3>
+            <div class="cards-grid">
+                
+                <!-- Пенджі (Mine Media) -->
+            <div class="card" data-company="mine-media">
+                <a href="pangjie.html" class="card-img-container" style="display: block; height: 200px; overflow: hidden; border-radius: 12px 12px 0 0;">
+                    <img src="pangjie.jpg" alt="Пенджі" style="width: 100%; height: 100%; object-fit: cover;">
+                </a>
+                <div class="card-info">
+                    <span class="card-year">Mine Media</span>
+                    <h3>Пенджі / Pangjie</h3>
+                    <p class="card-company">Актриса</p>
+                    <a href="pangjie.html" class="card-link">Біографія</a>
+                </div>
+            </div>
+
+               <!-- Компанія -->
+                <div class="card">
+                    <a href="minemedia.html" class="card-img-container" style="display: block; height: 200px; overflow: hidden; border-radius: 12px 12px 0 0;">
+                        <img src="mine-media.jpg" alt="Mine Media Production" style="width: 100%; height: 100%; object-fit: cover;">
+                    </a>
+                    <div class="card-info">
+                        <span class="card-year">Виробництво</span>
+                        <h3>Mine Media Production</h3>
+                        <a href="minemedia.html" class="card-link">Про компанію</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Футер -->
+    <footer>
+        <p>&copy; 2026 GL Universe</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

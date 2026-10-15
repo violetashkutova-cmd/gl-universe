@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="uk" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пенджі Папхаварін — GL Universe</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Шапка сайту -->
+    <header class="header">
+        <div class="logo">🪷 GL Universe</div>
+        <nav class="nav-links">
+            <a href="index.html">Головна</a>
+            <a href="lakorns.html">Лакорни</a>
+            <a href="actresses.html" class="active">Актриси</a>
+            <a href="companies.html">Компанії</a>
+        </nav>
+        <button id="theme-toggle" class="theme-btn">☀️</button>
+    </header>
+
+    <!-- Основний контент -->
+    <main class="content-container">
+        
+       <div class="back-link">
+    <a href="#" onclick="history.back(); return false;">&larr; Назад</a>
+</div>
+        <div class="detail-grid">
+            <!-- Ліва колонка: Фото та соцмережі -->
+            <div class="detail-poster-column">
+                <div class="detail-poster">
+                    <img src="pangjie.jpg" alt="Пенджі Папхаварін">
+                </div>
+                
+                <!-- Блок соцмереж -->
+                <div class="social-buttons" style="display: flex; flex-direction: column; gap: 10px; margin-top: 15px;">
+                    <a href="https://www.instagram.com/pangjiewr?srtk=MWRrM2xjc2Y2dGduaQ==" target="_blank" class="btn social-btn instagram">Instagram</a>
+                    <a href="https://www.tiktok.com/@pangjiewrr?_r=1&_t=ZS-9AZfwray9fl" target="_blank" class="btn social-btn tiktok">TikTok</a>
+                    <a href="https://x.com/pangjiewr" target="_blank" class="btn social-btn twitter">X (Twitter)</a>
+                </div>
+            </div>
+
+            <!-- Права колонка: Інформація про актрису -->
+            <div class="detail-info">
+                <h1>Пенджі Папхаварін <span class="thai-title">(แป้งจี่ ปภาวรินท์ สวัสดิเวช)</span></h1>
+                
+                <div class="meta-tags">
+                    <span class="tag-badge">Актриса та модель</span>
+                    <span class="tag-badge">Mine Media Production</span>
+                </div>
+
+                <div class="bio-details" style="margin: 20px 0; display: flex; flex-direction: column; gap: 10px; line-height: 1.6;">
+                    <p><strong>Повне ім'я:</strong> Пенджі Папхаварін Савадівет (Pangjie Paphavarin Sawasdiwech)</p>
+                    <p><strong>Дата народження:</strong> 16 серпня 2005 року</p>
+                    <p><strong>Місце народження:</strong> Пхукет, Таїланд</p>
+                    <p><strong>Національність:</strong> Чистокровна тайка</p>
+                    <p><strong>Зріст:</strong> 164–165 см</p>
+                    <p><strong>Середня освіта:</strong> Закінчила середню школу «Satree Phuket School»</p>
+                    <p><strong>Вища освіта:</strong> Навчається в Університеті Срінакхарінвірот (Srinakharinwirot University) на факультеті витончених та прикладних мистецтв за спеціальністю «Акторська майстерність та режисура»</p>
+                    <p><strong>Місце роботи / Агентство:</strong> Mine Media Production</p>
+                </div>
+
+                <div class="synopsis">
+                    <h3>Біографія та кар'єра</h3>
+                    <p>
+                        Пенджі Папхаварін Савадівет — талановита тайська акторка й модель нового покоління. Вона здобула неймовірну популярність та любов глядачів завдяки своїй проривній головній ролі у резонансному тайському GL-трилері «КлерБелл» (2025). 
+                    </p>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Фільмографія -->
+        <div class="related-section">
+            <h3>Фільмографія</h3>
+            <div class="cards-grid" style="max-width: 400px;">
+                <div class="card">
+                    <a href="clairebell.html" class="card-img-container" style="display: block; height: 250px; overflow: hidden; border-radius: 12px 12px 0 0;">
+                        <img src="clairebell.jpg" alt="КлерБелл" style="width: 100%; height: 100%; object-fit: cover;">
+                    </a>
+                    <div class="card-info">
+                        <span class="card-year">2025</span>
+                        <h3>КлерБелл / ClaireBell</h3>
+                        <p class="card-company">Роль: Белл</p>
+                        <a href="clairebell.html" class="card-link">Детальніше</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Блок «Пов'язане» (Інша акторка та студія) -->
+        <div class="related-section">
+            <h3>Пов'язане</h3>
+            <div class="cards-grid">
+                
+                <!-- Мейбл (Mine Media) -->
+            <div class="card" data-company="mine-media">
+                <a href="mable.html" class="card-img-container" style="display: block; height: 200px; overflow: hidden; border-radius: 12px 12px 0 0;">
+                    <img src="mable.jpg" alt="Мейбл" style="width: 100%; height: 100%; object-fit: cover;">
+                </a>
+                <div class="card-info">
+                    <span class="card-year">Mine Media</span>
+                    <h3>Мейбл / Mable</h3>
+                    <p class="card-company">Актриса</p>
+                    <a href="mable.html" class="card-link">Біографія</a>
+                </div>
+            </div>
+
+ <!-- Mine Media Production -->
+            <div class="card" data-name="mine-media">
+                <a href="minemedia.html" class="card-img-container" style="display: block; height: 200px; overflow: hidden; border-radius: 12px 12px 0 0;">
+                    <img src="mine-media.jpg" alt="Mine Media Production" style="width: 100%; height: 100%; object-fit: cover;">
+                </a>
+                <div class="card-info">
+                    <span class="card-year">Студія-агенство</span>
+                    <h3>Mine Media Production</h3>
+                    <p class="card-company">Інді медіакомпанія</p>
+                    <a href="minemedia.html" class="card-link">Про компанію</a>
+                </div>
+            </div>
+          </div>
+        </div>
+
+    </main>
+
+    <!-- Футер -->
+    <footer>
+        <p>&copy; 2026 GL Universe</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
